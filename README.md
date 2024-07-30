@@ -60,7 +60,7 @@ An Expense Tracker web application that allows users to add and delete expenses 
 
 2. **Open the application in your browser:**
 
-    Navigate to `http://http://127.0.0.1:5000/`
+    Navigate to `http://127.0.0.1:5000/`
 
 ## Directory Structure
 
