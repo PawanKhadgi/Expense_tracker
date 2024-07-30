@@ -1,0 +1,10 @@
+/project-root
+  /public
+    index.html
+    Styles.css
+    script.js
+  data.json
+  server1.py
+  package.json
+  Requirements.txt
+  

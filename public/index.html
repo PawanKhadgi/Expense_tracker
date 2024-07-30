@@ -1,0 +1,141 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="login-container">
+        <header>
+            <h1>Login</h1>
+        </header>
+        <main>
+            <section class="form-section">
+                <form id="login-form">
+                    <div class="form-group">
+                        <input type="text" id="username" placeholder="Username" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="user-id" placeholder="User ID" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <div class="container" id="expense-tracker-container" style="display: none;">
+        <header>
+            <h1>Expense Tracker</h1>
+        </header>
+        <main>
+            <section class="form-section">
+                <form id="entry-form">
+                    <div class="form-group">
+                        <input type="number" id="amount" placeholder="Amount" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="description" placeholder="Description" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="type">
+                            <option value="income">Income</option>
+                            <option value="expense">Expense</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Add Entry</button>
+                    </div>
+                </form>
+            </section>
+            <section class="balance-section">
+                <h2>Net Balance: $<span id="net-balance">0.00</span></h2>
+            </section>
+            <section class="entries-section">
+                <ul id="entries-list"></ul>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="login-container">
+        <header>
+            <h1>Login</h1>
+        </header>
+        <main>
+            <section class="form-section">
+                <form id="login-form">
+                    <div class="form-group">
+                        <input type="text" id="username" placeholder="Username" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="user-id" placeholder="User ID" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <div class="container" id="expense-tracker-container" style="display: none;">
+        <header>
+            <h1>Expense Tracker</h1>
+            <h2 id="user-greeting"></h2>
+        </header>
+        <main>
+            <section class="form-section">
+                <form id="entry-form">
+                    <div class="form-group">
+                        <input type="number" id="amount" placeholder="Amount" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="description" placeholder="Description" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="type">
+                            <option value="income">Income</option>
+                            <option value="expense">Expense</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Add Entry</button>
+                    </div>
+                </form>
+            </section>
+            <section class="balance-section">
+                <h2>Net Balance: $<span id="net-balance">0.00</span></h2>
+            </section>
+            <section class="entries-section">
+                <ul id="entries-list"></ul>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
